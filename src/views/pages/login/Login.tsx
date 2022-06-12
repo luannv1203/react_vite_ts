@@ -11,7 +11,6 @@ function LoginPage() {
   useEffect(() => {
     console.log('i fire once');
     return () => {
-      // clearInterval(interval)
       console.log('Component Will Unmount');
     }
   },[]);
@@ -19,7 +18,7 @@ function LoginPage() {
   useEffect(() => {
     console.log('Component Did Update');
   }, [isAuth])
-  
+
   return (
     <div>
       This is login page

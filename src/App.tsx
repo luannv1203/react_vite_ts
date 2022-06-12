@@ -11,16 +11,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="login" element={<LoginPage />} />
-          <Route path="blogs" element={<PostComponent />} />
-          {/* <Route path="/" element={<MainLayout />}>
+          <Route path="/" element={ <MainLayout /> }>
             <Route index element={<HomePage />} />
             <Route path="blogs" element={<PostComponent />} />
           </Route>
           <Route path="/login" element={<AuthLayout />}>
             <Route index element={<LoginPage />} />
-          </Route> */}
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
